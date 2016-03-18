@@ -1,0 +1,69 @@
+/*!
+ * Start Bootstrap - Small Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+@font-face {
+    font-family: proxima;
+    src: url(../fonts/proxima/ProximaNova-RegWeb.woff);
+}
+
+@font-face {
+    font-family: proximabold;
+    src: url(../fonts/proxima/ProximaNova-SboldWeb.woff);
+}
+
+*{font-family: proxima;}
+h1, h2, h3, h4, h5, h6{font-family: proximabold;}
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+.navbar-fixed-top .nav {
+    padding: 10px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+footer {
+    padding: 30px 0;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+body.modal-open { position: fixed !important;}
+
+.al{font-family: proximabold}
+.fn{margin-bottom: 30px }
+
+.nosotros{font-size: 18px;}
+.header-cards{background:#01A8BA; 
+              color: #fff; 
+              margin-bottom: 0px! important; 
+              padding: 16px }
+body{background: url(../img/bg.png);
+     background-repeat: no-repeat;
+     background-position: left bottom;
+     background-attachment: fixed;
+     height: 100%;}
+.bio-table{padding-bottom: 10px; font-size: 20px;}
+.navbar{background:#f6f6f6 !important;}
+.right{float: right;}
+.servicios:hover{text-decoration: none;}
+.boletines{background: #01A8BA; padding: 15px; color:#fff;font-family: 'Teko', sans-serif; font-size: 54px; border-radius: 5px; }
+.boletines:hover{ background: black;}
+.alt{border-top:  2px #111111 solid;}
+.tabclick{cursor: pointer}
+.navbar-nav > li > a{color: #01A8BA !important; font-family: 'Teko', sans-serif; font-size: 24px;}
+.navbar-nav > li > a:hover{background: #f6f6f6 !important; color: #333333 !important;}
+.center{margin-left: 23% !important; margin-top: 15px;}
