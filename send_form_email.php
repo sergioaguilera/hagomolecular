@@ -135,7 +135,7 @@ $headers = 'From: '.$email_from."\r\n".
  
  
  
-<!-- include your own success html here -->
+<!-- include your own success html here  hola mundo -->
  
  
 <meta http-equiv="refresh" content="0; url=http://hagomolecular.com/contacto.php" />
