@@ -250,7 +250,7 @@
                 </p>
                 <hr>
                 <h4 id="zac" class="tabclick">Zacatecas</h4>
-                <p  id="zacatecas" class=" tab-text">Dr. Habacuc Hernández
+                <p id="zaca" class="tab-text">Dr. Habacuc Hernández
                     <br>
                     4931030384
                     <br>
@@ -364,7 +364,7 @@
     });
         
     $("#zac").click(function(){
-       $("#zacatecas").toggle();
+       $("#zaca").toggle();
     });
     </script>
 
