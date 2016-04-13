@@ -42,7 +42,7 @@ footer {
     }
 }
 body.modal-open { position: fixed !important;}
-
+.tab-text{display: none;}
 .al{font-family: proximabold}
 .fn{margin-bottom: 30px }
 

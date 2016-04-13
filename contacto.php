@@ -133,7 +133,7 @@
             <!-- /.col-md-8 -->
             <div class="col-md-5" >
                 <h4 id="mat">Matriz</h4>
-                <p  class="hide" id="matriz">Tel. 01 (871) 2042628
+                <p  class=" tab-text" id="matriz">Tel. 01 (871) 2042628
                     <br>
                     Cel. 8711745363
                     <br>
@@ -161,7 +161,7 @@
                 </p>
                 <hr>
                 <h4 id="agu" class="tabclick">Aguascalientes</h4>
-                <p id="aguascalientes" class="hide">Dr. Habacuc Hernández
+                <p id="aguascalientes" class=" tab-text">Dr. Habacuc Hernández
                     <br>
                     4931030384
                     <br>
@@ -169,7 +169,7 @@
                 </p>
                 <hr>
                 <h4 id="baj" class="tabclick">Baja California</h4>
-                <p id="bajacalifornia" class="hide">Q.F.B. Cecilia Haro
+                <p id="bajacalifornia" class=" tab-text">Q.F.B. Cecilia Haro
                     <br>
                     6643699149
                     Av. Josefa Ortiz de Domínguez 779
@@ -182,7 +182,7 @@
                 </p>
                 <hr>
                 <h4 id="cam" class="tabclick">Campeche</h4>
-                <p id="campeche" class="hide">Dra. Fabiola Calderón Zúñiga
+                <p id="campeche" class=" tab-text">Dra. Fabiola Calderón Zúñiga
                     <br>
                     8712314613
                     <br>
@@ -190,7 +190,7 @@
                 </p>
                 <hr>
                 <h4 id="coa" class="tabclick">Coahuila</h4>
-                <p id="coahuila" class="hide">Tel. 01 (871) 2042628
+                <p id="coahuila" class=" tab-text">Tel. 01 (871) 2042628
                     Cel. 8711745363
                     <br>
                     Av. Juárez 751 oriente colonia Centro Torreón Coahuila. 
@@ -202,7 +202,7 @@
                 </p>
                 <hr>
                 <h4 id="dfc" class="tabclick">D.F / Centro</h4>
-                <p id="dfcentro" class="hide">Dr. Iván Alejandro Córdoba Solís
+                <p id="dfcentro" class=" tab-text">Dr. Iván Alejandro Córdoba Solís
                     <br>
                     5523442787
                     <br>
@@ -210,7 +210,7 @@
                 </p>
                 <hr>
                 <h4 id="dur" class="tabclick">Durango</h4>
-                <p id="durango" class="hide">Q.F.B. Edith Sandoval Carreón
+                <p id="durango" class=" tab-text">Q.F.B. Edith Sandoval Carreón
                     <br>
                     6181531366
                     <br>
@@ -218,7 +218,7 @@
                 </p>
                 <hr>
                 <h4 id="gua" class="tabclick">Guanajuato</h4>
-                <p  id="guanajuato" class="hide">M.C. Estephany Tondopo Jiménez
+                <p  id="guanajuato" class=" tab-text">M.C. Estephany Tondopo Jiménez
                     <br>
                     4621104952
                     <br>
@@ -226,7 +226,7 @@
                 </p>
                 <hr>
                 <h4  id="nue" class="tabclick">Nuevo León</h4>
-                <p  id="nuevoleon" class="hide">Dr. Iván Alberto Marino Martínez
+                <p  id="nuevoleon" class=" tab-text">Dr. Iván Alberto Marino Martínez
                     <br>
                     8113874103
                     <br>
@@ -234,7 +234,7 @@
                 </p>
                 <hr>
                 <h4  id="san" class="tabclick">San Luis Potosí</h4>
-                <p  id="sanluis" class="hide">Lic. Vicenta Zapata
+                <p  id="sanluis" class=" tab-text">Lic. Vicenta Zapata
                     <br>
                     4444343194
                     <br>
@@ -242,7 +242,7 @@
                 </p>
                 <hr>
                 <h4  id="tam" class="tabclick">Tamaulipas</h4>
-                <p  id="tamaulipas" class="hide">Dr. Iván Alberto Marino Martínez
+                <p  id="tamaulipas" class=" tab-text">Dr. Iván Alberto Marino Martínez
                     <br>
                     8113874103
                     <br>
@@ -250,7 +250,7 @@
                 </p>
                 <hr>
                 <h4 id="zac" class="tabclick">Zacatecas</h4>
-                <p  id="zacatecas" class="hide">Dr. Habacuc Hernández
+                <p  id="zacatecas" class=" tab-text">Dr. Habacuc Hernández
                     <br>
                     4931030384
                     <br>
@@ -315,56 +315,56 @@
     
     <script>
         
-    $("#mat").click(function(){
-       $("#matriz").removeClass("hide");
+    $("#mat").click(function (){
+       $("#matriz").toggle();
     });
     
     $("#coa").click(function(){
-       $("#coahuila").removeClass("hide");
+       $("#coahuila").toggle();
     });
         
     $("#agu").click(function(){
-       $("#aguascalientes").removeClass("hide");
+       $("#aguascalientes").toggle();
     });
     
     $("#zac").click(function(){
-       $("#zacatecas").removeClass("hide");
+       $("#zacatecas").toggle();
     });
     
     $("#baj").click(function(){
-       $("#bajacalifornia").removeClass("hide");
+       $("#bajacalifornia").toggle();
     });
         
     $("#cam").click(function(){
-       $("#campeche").removeClass("hide");
+       $("#campeche").toggle();
     });
         
     $("#dfc").click(function(){
-       $("#dfcentro").removeClass("hide");
+       $("#dfcentro").toggle();
     });
         
     $("#dur").click(function(){
-       $("#durango").removeClass("hide");
+       $("#durango").toggle();
     });
         
     $("#gua").click(function(){
-       $("#guanajuato").removeClass("hide");
+       $("#guanajuato").toggle();
     });
         
     $("#nue").click(function(){
-       $("#nuevoleon").removeClass("hide");
+       $("#nuevoleon").toggle();
     });
     
     $("#san").click(function(){
-       $("#sanluis").removeClass("hide");
+       $("#sanluis").toggle();
     });
     
     $("#tam").click(function(){
-       $("#tamaulipas").removeClass("hide");
+       $("#tamaulipas").toggle();
     });
         
     $("#zac").click(function(){
-       $("#zacatecas").removeClass("hide");
+       $("#zacatecas").toggle();
     });
     </script>
 
